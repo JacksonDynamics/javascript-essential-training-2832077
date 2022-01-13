@@ -6,3 +6,23 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+
+
+import Shirts from "./Backpack.js"
+
+
+const myShirt= new Shirts(
+    "My Best",
+    false,
+    true,
+    "black",
+    1,
+    false,
+    true
+)
+
+const Blue = "BLUE"
+
+console.log("My shirt of choice today: ", myShirt)
+console.log("The color of my shirt is: ", myShirt.color)

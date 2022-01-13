@@ -23,4 +23,13 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  newCreatedName: function (newObjectName) {
+    this.name= newObjectName
+  },
+
 };
+
+console.log("My backpacks name is:", backpack.name)
+backpack.newCreatedName("WAHOOOOHEYYYYY")
+console.log("My new backpacks name is:", backpack.name)
+console.log(backpack)

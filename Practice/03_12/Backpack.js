@@ -37,4 +37,34 @@ class Backpack {
   }
 }
 
-export default Backpack;
+
+
+
+class Shirts{
+  constructor(
+    // Defines parameters:
+    name,
+    longSleeve,
+    shortSleeve,
+    color,
+    pocketNum,
+    old,
+    newShirt,
+  ) {
+    // Define properties:
+    this.name = name;
+    this.longSleeve = longSleeve;
+    this.shortSleeve = shortSleeve;
+    this.color = color;
+    this.pocketNum = pocketNum;
+    this.old = old;
+    this.newShirt = newShirt;
+  }
+  // Add methods like normal functions:
+  toggleColor(color) {
+    this.color = color;
+  }
+}
+
+export default Shirts;
+

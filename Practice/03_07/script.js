@@ -7,3 +7,17 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+
+
+const desk={
+    drawer: {
+        lube: "purple",
+        towels: "paper",
+    },
+    computer: "mac",
+    lamp: "standing",
+    electronics: 10    
+}
+
+console.log("My desk:", desk.drawer.towels)
