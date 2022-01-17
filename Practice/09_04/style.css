@@ -22,3 +22,14 @@ body {
   height: 6rem;
   background-color: hsl(0, 0%, 90%);
 }
+
+
+.blue {
+  border: 15px groove;
+}
+.red {
+  background-color: red !important;
+}
+.green {
+  background-color: green !important;
+}
